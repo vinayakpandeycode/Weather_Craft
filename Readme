@@ -1,39 +1,57 @@
-# 🌦️ WeatherCraft: Real-Time Weather Dashboard 
+# 🌦️ WeatherCraft: Real-Time Weather Dashboard
 
-*A stunning, interactive weather application built with passion during our hackathon WeatherCraft reimagines weather visualization by blending precise meteorological data with an immersive, intuitive interface. This thoughtfully engineered application transforms raw weather metrics into a delightful user experience that feels both sophisticated and welcoming.*  
+*A stunning, interactive weather application built with passion during our hackathon.*  
+**WeatherCraft** reimagines weather visualization by blending precise meteorological data with an immersive, intuitive interface. This thoughtfully engineered application transforms raw weather metrics into a delightful user experience that feels both sophisticated and welcoming.
+
 ![WeatherCraft Logo](./assets/weatherLogo.png)
 
-## 🌟 Live Demo
-Experience WeatherCraft right now:  
-🔗 ** https://vinayakpandeycode.github.io/Weather_Craft/*
+---
 
+## 🌟 Live Demo
+
+Experience WeatherCraft right now:  
+🔗 **[https://vinayakpandeycode.github.io/Weather_Craft/](https://vinayakpandeycode.github.io/Weather_Craft/)**
+
+---
 
 ## ✨ Features That Spark Joy
 
-- 🌍 **Location Intelligence** - Get precise weather for any city worldwide
-- 🌡️ **Smart Unit Conversion** - Seamless Celsius/Fahrenheit toggle
-- 🎨 **Dynamic Visuals** - Backgrounds & icons that adapt to weather conditions
-- ⏰ **Local Time Magic** - Accurate timezone conversion
-- 🎉 **Celebration Mode** - Confetti explosions for perfect weather days
-- 📱 **Responsive Design** - Beautiful on any device
+- 🌍 **Location Intelligence** – Get precise weather updates for any city worldwide  
+- 🌡️ **Smart Unit Conversion** – Seamlessly switch between Celsius and Fahrenheit  
+- 🎨 **Dynamic Visuals** – Weather-based backgrounds and icons  
+- ⏰ **Local Time Magic** – Accurate timezone conversions  
+- 🎉 **Celebration Mode** – Confetti animation for perfect weather days  
+- 📱 **Responsive Design** – Optimized for all devices
 
+---
 
-🛠️ Tech Stack
-| 🔖 **Category** | 🛠️ **Technology Used** |
-| --------------- | ----------------------- |
-| **Frontend**    | HTML5, CSS3, JavaScript |
-| **Animations**  | GSAP, CSS Animations    |
-| **Icons**       | Font Awesome            |
-| **API**         | OpenWeatherMap API      |
+## 🛠️ Tech Stack
 
+| 🔖 **Category** | 🛠️ **Technology Used**        |
+|----------------|-------------------------------|
+| **Frontend**    | HTML5, CSS3, JavaScript       |
+| **Animations**  | GSAP, CSS Animations          |
+| **Icons**       | Font Awesome                  |
+| **API**         | OpenWeatherMap API            |
 
-🌤️ "There's no such thing as bad weather, only different kinds of good weather."
+---
 
-## For Code
- Clone the repository:
-   ```bash
+## 👥 Team Behind the Magic
+
+| 👤 **Role**             | 🧑‍💻 **Team Member**     |
+|------------------------|--------------------------|
+| **Team Leader**         | Nandani Yadav            |
+| **Frontend Developer**  | Shifa Praveen            |
+| **Frontend Developer**  | Shikha Gupta             |
+| **Backend Developer**   | Omkar Pandey             |
+| **Team Coordinator**    | Vinayak Pandey           |
+
+---
+
+## 💻 For Developers
+
+To clone and explore the project locally:
+
+```bash
 git clone https://github.com/vinayakpandeycode/Weather_Craft.git
-   
-![Image](https://github.com/user-attachments/assets/0424f4f8-26d8-4e8c-b4b4-0521df10813b)
-![Image](https://github.com/user-attachments/assets/ab865a7e-5656-4db3-ad80-8ae093c862b7)
-
+cd Weather_Craft
