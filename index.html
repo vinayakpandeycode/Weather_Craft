@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather.com</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="particles"></div>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter City Name" spellcheck="false" id="search" />
+      <button class="rainbow-hover"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="error"><p>Invalid City Name</p></div>
+    <div class="weather">
+      <div class="weather-icon-container">
+        <img src="" class="weather-icon" alt="weather"/>
+      </div>
+      <h1 class="temp">0°C</h1>
+      <h3 class="temp">It <span class="feels-like">0</span>°C</h3>
+      <h2 class="city">City</h2>
+      <h3 class="country">Country</h3>
+      <div class="details">
+        <div class="col">
+          <div class="icon-circle humidity-bg">
+            <i class="fas fa-tint"></i>
+          </div>
+          <div><p class="humidity">0%</p><p>Humidity</p></div>
+        </div>
+        <div class="col">
+          <div class="icon-circle wind-bg">
+            <i class="fas fa-wind"></i>
+          </div>
+          <div><p class="wind">0 km/h</p><p>Wind Speed</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="toggle-unit" class="unit-toggle rainbow-hover">Switch to °F</button>
+  <script src="script.js"></script>
+</body>
+</html>
