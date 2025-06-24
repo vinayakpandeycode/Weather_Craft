@@ -9,8 +9,7 @@ searchBtn.addEventListener("click", () => {
     .then((res) => res.json())
     .then((data) => {
       console.log("Data via proxy:", data);
-      // Aap yahan data ko display kar sakte ho
-      // Example:
+
       document.querySelector(".city").innerText = data.city || "City";
       document.querySelector(".temp").innerText = data.temp
         ? `${data.temp}°C`
