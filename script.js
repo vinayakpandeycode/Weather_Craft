@@ -1,4 +1,5 @@
-const apiBase = "https://weather-api-backend-wsi5.onrender.com/api/weather";
+const apiUrl = "https://weather-api-backend-wsi5.onrender.com/api/weather";
+
 
 searchBtn.addEventListener("click", () => {
   const city = searchBox.value.trim();
